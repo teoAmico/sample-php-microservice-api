@@ -1,0 +1,11 @@
+.env
+composer.lock
+/vendor
+phinix.yml
+# exclude everything
+logs/*
+
+# exception to the rule
+!logs/.gitkeep
+test/.gitkeep
+
